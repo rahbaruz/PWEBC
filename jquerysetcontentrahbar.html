@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Nyoba Set Content</title>
+	
+	<script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+	</script>
+</head>
+
+<body style="text-align:center;">
+	
+	<h1 id="Ganti1" style = "color:rgb(214, 150, 206);">
+		Halo !!!
+	</h1>
+	
+	<h2 id="Ganti2">Apa Kabar</h2>
+	
+	<p>Full Form: <input type="text" id="Ganti3" value="Kalian Semua !!!"></p>
+	
+	<button id="btn1">Tombol 1</button>
+	<button id="btn2">Tombol 2</button>
+	<button id="btn3">Tombol 3</button>
+	
+	<script>
+		$(document).ready(function() {
+			$("#btn1").click(function() {
+				$("#Ganti1").text("Loh");
+			});
+			
+			$("#btn2").click(function() {
+				$("#Ganti2").html("Kok");
+			});
+			
+			$("#btn3").click(function() {
+				$("#Ganti3").val("Ganti");
+			});
+		});
+	</script>
+</body>
+
+</html>
